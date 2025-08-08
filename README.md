@@ -35,7 +35,7 @@ This makes it ideal for building **secure conversational banking experiences**.
 ```
 bankwise-assistant/
 │
-├── mai.py                     # Main application entry point
+├── main.py                     # mainn application entry point
 ├── my_tools.py                # Tools: Identify purpose & Generate tokens
 ├── handoff_agents.py          # Specialized banking agents
 ├── input_guardrail.py         # Input safety checks
@@ -115,13 +115,13 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ### **With uv (Recommended)**
 
 ```bash
-uv run mai.py
+uv run main.py
 ```
 
 ### **With Python**
 
 ```bash
-python mai.py
+python main.py
 ```
 
 You should see:
@@ -204,6 +204,7 @@ I want to check my account balance.
 ## **License**
 
 This project is licensed under the **MIT License** – free to use, modify, and distribute.
+
 
 
 
